@@ -1,0 +1,30 @@
+#include <iostream>
+// activity 2
+using namespace std;
+
+int main()
+{
+    float num1,num2,num3,sum,product,quotient,difference;
+
+       cout<<"basic math operators";
+       cout<<endl;
+       cout<<endl;
+
+    cout<<"enter 1st number  ";
+    cin>>num1;
+
+    cout<<"enter 2nd number  ";
+    cin>>num2;
+
+    cout<<"enter 3rd number  ";
+    cin>>num3;
+
+    sum = num1 + num2 + num3;
+    product =  num1 * num2 * num3;
+    quotient =  num1 / num2 / num3;
+    difference =  num1 - num2 - num3;
+
+      cout<<endl;
+    cout<<endl;
+
+  

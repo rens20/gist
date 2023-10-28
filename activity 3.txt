@@ -1,0 +1,55 @@
+#include <iostream>
+// activity 2
+using namespace std;
+
+int main()
+{
+    string studentName;
+    string  section;
+    int quarter1Grade;
+    int quarter2Grade;
+    int quarter3Grade;
+    int quarter4Grade;
+    int totalGrade;
+    double averageGrade;
+    char enter;
+
+        cout<<"          comProg Grading sheet";
+        cout<<endl;
+        cout<<endl;
+
+    cout<<"Enter student name:  ";
+    cin>>studentName;
+    cout<<"section  ";
+    cin>>section;
+    cout<<"1st quarter:  ";
+    cin>>quarter1Grade;
+    cout<<"2nd quarter:   ";
+    cin>>quarter2Grade;
+    cout<<"3rd quarter:   ";
+    cin>>quarter3Grade;
+    cout<<"4th quarter;   ";
+    cin>>quarter4Grade;
+
+
+     cout<<endl;
+         cout<<endl;
+         cout<<endl;
+     cout<<"press any key to compute:";
+     cin<<char;
+
+         totalGrade = quarter1Grade + quarter2Grade + quarter3Grade + quarter4Grade;
+         averageGrade = (double)totalGrade / 4;
+         cout<<endl;
+         cout<<endl;
+         cout<<endl;
+
+         cout << "       your average is: " << averageGrade << endl;
+         cout << endl;
+         cout << endl;
+         cout << endl;
+         cout << "                                                                                   rens belaga acuna" << endl;
+         cout << "                                                                                        ict 11-4 batch 2";
+
+    return 0;
+}

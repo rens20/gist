@@ -1,0 +1,33 @@
+#include <iostream>
+// activity 2
+using namespace std;
+
+int main()
+{
+    string name;
+    string section;
+    int totalScore;
+    int numItems;
+    char enter;
+    float lizette;
+
+    cout<<"enter student name  ";
+    cin>>name;
+    cout<<"section  ";
+    cin>>section;
+    cout<<" total score  ";
+    cin>>totalScore;
+    cout<<" total no. of items  ";
+    cin>>numItems;
+
+
+      lizette = totalScore * 50 / numItems + 50;
+
+    cout<<"press any key to compute revenge"<<endl;
+    cin>>enter;
+    cout<<"hello  "<<name<<endl;
+    cout<< "your average  "<<lizette;
+
+
+    return 0;
+}
